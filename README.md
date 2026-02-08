@@ -12,7 +12,7 @@ Dokumentacja została podzielona na weryfikację głównych funkcjonalności.
 <li></li>2.Obsługa Przelewów (TC-16 – TC-30): Testy funkcjonalne i negatywne procesów płatniczych, obejmujące przelewy krajowe, walidację numerów NRB, limity dzienne oraz autoryzację kodami SMS.</li>
 <li></li>3.Zarządzanie Historią (TC-31 – TC-35): Sprawdzenie poprawności wyświetlania danych historycznych oraz precyzyjnego filtrowania operacji po datach i kwotach.</li>
 ></li>
-#4.Testy API (TC-36 – TC-42): Techniczna weryfikacja punktów styku aplikacji, skupiająca się na autoryzacji tokenem Bearer, poprawności struktur JSON oraz obsłudze kodów błędów HTTP (np. 401, 400, 404).
+<li></li>4.Testy API (TC-36 – TC-42): Techniczna weryfikacja punktów styku aplikacji, skupiająca się na autoryzacji tokenem Bearer, poprawności struktur JSON oraz obsłudze kodów błędów HTTP (np. 401, 400, 404). </li>
 
  <li>Projekt własny - testowanie strony banku www.santander.pl</li>
  <ul>
