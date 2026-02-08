@@ -2,7 +2,7 @@
 # 🏦 Testy Manualne
 
 ## 📖 Opis Projektu
-Poniższa dokumentacja zawiera 42 szczegółowe przypadki testowe, które koncentrują się na krytycznych funkcjonalnościach bankowości elektronicznej. Zakres testów został zaprojektowany tak, aby objąć najważniejsze ścieżki użytkownika oraz bezpieczeństwo danych:
+Poniższa dokumentacja zawiera 42 szczegółowe przypadki testowe, które koncentrują się na krytycznych funkcjonalnościach bankowości elektronicznej. Zakres testów został zaprojektowany tak, aby objąć najważniejsze ścieżki użytkownika oraz bezpieczeństwo danych.
 
 ---
 
