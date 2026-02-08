@@ -1,4 +1,13 @@
 # Santander
+# 🏦 Testy Manualne
+
+## 📖 Opis Projektu
+Projekt zawiera przykładową dokumentację testową dla strony **Santander.pl**.
+
+---
+
+## 🏗️ Struktura Przypadków Testowych (Test Suite)
+Dokumentacja została podzielona na weryfikację głównych funkcjonalności.
 
  <li>Projekt własny - testowanie strony banku www.santander.pl</li>
  <ul>
