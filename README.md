@@ -2,12 +2,16 @@
 # 🏦 Testy Manualne
 
 ## 📖 Opis Projektu
-Projekt zawiera przykładową dokumentację testową dla strony **Santander.pl**.
+Poniższa dokumentacja zawiera 42 szczegółowe przypadki testowe, które koncentrują się na krytycznych funkcjonalnościach bankowości elektronicznej. Zakres testów został zaprojektowany tak, aby objąć najważniejsze ścieżki użytkownika oraz bezpieczeństwo danych:
 
 ---
 
-## 🏗️ Struktura Przypadków Testowych (Test Suite)
+## 🏗️ Zakres Testów Manualnych i API (Santander)
 Dokumentacja została podzielona na weryfikację głównych funkcjonalności.
+1.Logowanie i Bezpieczeństwo (TC-01 – TC-15): Kompleksowa weryfikacja dostępu do konta, w tym obsługa błędnych danych, autoryzacja dwuskładnikowa (2FA) oraz mechanizmy wygasania sesji i bezpieczeństwa cache.
+2.Obsługa Przelewów (TC-16 – TC-30): Testy funkcjonalne i negatywne procesów płatniczych, obejmujące przelewy krajowe, walidację numerów NRB, limity dzienne oraz autoryzację kodami SMS.
+3.Zarządzanie Historią (TC-31 – TC-35): Sprawdzenie poprawności wyświetlania danych historycznych oraz precyzyjnego filtrowania operacji po datach i kwotach.
+4.Testy API (TC-36 – TC-42): Techniczna weryfikacja punktów styku aplikacji, skupiająca się na autoryzacji tokenem Bearer, poprawności struktur JSON oraz obsłudze kodów błędów HTTP (np. 401, 400, 404).
 
  <li>Projekt własny - testowanie strony banku www.santander.pl</li>
  <ul>
