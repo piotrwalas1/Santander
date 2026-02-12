@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import java.util.Set;
 
-public class Tc4a {
+public class Tc2Test {
     @Test
     public void account1() throws InterruptedException {
         WebDriver driver = new FirefoxDriver();
@@ -33,14 +33,22 @@ public class Tc4a {
             }
         }
         driver.findElement(By.id("privacy-prompt-controls-button-accept")).click();
-     driver.findElement(By.id("input_nik")).sendKeys("123456");
-       Thread.sleep(1500);
+     driver.findElement(By.id("input_nik")).sendKeys("12345678");
+       // driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
+        Thread.sleep(1500);
      driver.findElement(By.id("okBtn2")).click();
      Thread.sleep(1500);
+       driver.findElement(By.id("ordinarypin")).sendKeys("123456");
        driver.findElement(By.id("okBtn2")).click();
-     driver.findElement(By.id("ordinarypin"));
+       driver.findElement(By.id("input_number_1")).sendKeys("1");
+        driver.findElement(By.id("input_number_2")).sendKeys("2");
+        driver.findElement(By.id("input_number_3")).sendKeys("3");
+        driver.findElement(By.id("input_number_4")).sendKeys("4");
+        driver.findElement(By.id("input_number_5")).sendKeys("5");
+        driver.findElement(By.id("input_number_6")).sendKeys("6");
+        driver.findElement(By.id("okBtn2")).click();
         Thread.sleep(1500);
-       //driver.quit();
+      driver.quit();
 
     }
 

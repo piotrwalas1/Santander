@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.util.Set;
 
-public class Tc4asercja1 {
+public class Tc4asercja1Test {
     @Test
     public void account1() throws InterruptedException {
         WebDriver driver = new FirefoxDriver();

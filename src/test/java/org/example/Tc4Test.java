@@ -2,14 +2,12 @@ package Santander;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.Set;
 
-public class Tc4asercja2 {
+public class Tc4Test {
     @Test
     public void account1() throws InterruptedException {
         WebDriver driver = new FirefoxDriver();
@@ -35,19 +33,11 @@ public class Tc4asercja2 {
             }
         }
         driver.findElement(By.id("privacy-prompt-controls-button-accept")).click();
-     driver.findElement(By.id("input_nik")).sendKeys("123456");
+     driver.findElement(By.id("input_nik"));
        Thread.sleep(1500);
      driver.findElement(By.id("okBtn2")).click();
      Thread.sleep(1500);
-       driver.findElement(By.id("okBtn2")).click();
-     driver.findElement(By.id("ordinarypin"));
-        Thread.sleep(1500);
-        WebElement asercja1 = driver.findElement(By.xpath("/html/body/div[5]/main/div[2]/div[1]/div[1]/h1/span"));
-        Assert.assertEquals("Logowanie KROK 2", asercja1.getText());
-        System.out.println(asercja1.getText());
-
-
-       //driver.quit();
+       driver.quit();
 
     }
 

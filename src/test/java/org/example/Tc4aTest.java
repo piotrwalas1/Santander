@@ -5,11 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
 import java.util.Set;
-import java.util.concurrent.TimeUnit;
 
-public class Tc1 {
+public class Tc4aTest {
     @Test
     public void account1() throws InterruptedException {
         WebDriver driver = new FirefoxDriver();
@@ -35,14 +33,14 @@ public class Tc1 {
             }
         }
         driver.findElement(By.id("privacy-prompt-controls-button-accept")).click();
-     driver.findElement(By.id("input_nik")).sendKeys("12345678");
-       // driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
-        Thread.sleep(1500);
+     driver.findElement(By.id("input_nik")).sendKeys("123456");
+       Thread.sleep(1500);
      driver.findElement(By.id("okBtn2")).click();
      Thread.sleep(1500);
-       driver.findElement(By.id("ordinarypin")).sendKeys("123456");
+       driver.findElement(By.id("okBtn2")).click();
+     driver.findElement(By.id("ordinarypin"));
         Thread.sleep(1500);
-       driver.quit();
+       //driver.quit();
 
     }
 

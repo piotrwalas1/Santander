@@ -2,14 +2,12 @@ package Santander;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.Set;
 
-public class TcAsercja {
+public class TcAsercjaTest {
     @Test
     public void account1() throws InterruptedException {
         WebDriver driver = new FirefoxDriver();
