@@ -40,7 +40,7 @@ public class Tc4aTest {
        driver.findElement(By.id("okBtn2")).click();
      driver.findElement(By.id("ordinarypin"));
         Thread.sleep(1500);
-       //driver.quit();
+       driver.quit();
 
     }
 

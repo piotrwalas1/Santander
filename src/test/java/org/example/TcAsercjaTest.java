@@ -23,7 +23,7 @@ public class TcAsercjaTest {
         driver.findElement(By.id("privacy-prompt-controls-button-accept")).click();
         driver.switchTo().window(currentWindow);
 
-
+driver.quit();
 
 
     }

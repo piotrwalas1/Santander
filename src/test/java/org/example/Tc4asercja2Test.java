@@ -47,7 +47,7 @@ public class Tc4asercja2Test {
         System.out.println(asercja1.getText());
 
 
-       //driver.quit();
+       driver.quit();
 
     }
 
