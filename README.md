@@ -20,6 +20,7 @@ Dokumentacja została podzielona na weryfikację głównych funkcjonalności.
  <li><a href="https://github.com/piotrwalas1/PORTFOLIO/blob/main/przypadki%20testowe%20santander.pdf">Przykładowe przypadki testowe strony bankowej santander.pl</a></li> 
  <li><a href="https://youtu.be/Oa2J4A0pk5U">Przykładowa automatyzacja Tc1,Tc2, Tc4 Selenium/Java</a></li> 
   <li><a href="https://github.com/piotrwalas1/PORTFOLIO/blob/main/przypadki%20negatywne.pdf">15 Przykładowych Przypadków Negatywnych (Negative Testing) Kalkulatora Kredytów - Checklista</a></li> 
+  <li>Testy automatyczne, raport Jenkins</li>
    <p align="center">
   <img src="https://github.com/piotrwalas1/PORTFOLIO/blob/main/santanderjpg.jpg" width="600" title="Schemat automatyzacji">
 </p>
